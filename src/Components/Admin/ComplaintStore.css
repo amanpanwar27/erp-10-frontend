@@ -1,0 +1,67 @@
+.complaint_box {
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.complaint_box .row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.complaint_box .row3 {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* padding: 10px; */
+
+}
+
+.complaint_box .row3 .type {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.complaint_box .row3 .leave_det {
+    padding: 10px;
+    height: 130px;
+}
+
+.complaint_box .row4 {
+    background-color: rgb(129, 236, 129);
+    width: fit-content;
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+
+.complaint_box .row5 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.complaint_box .row5 .approve {
+    background-color: rgb(61, 214, 241);
+    padding: 0px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.complaint_box .row5 .reject {
+    border: 1px solid rgb(61, 214, 241);
+    padding: 0px 10px;
+    color: rgb(61, 214, 241);
+    cursor: pointer;
+}
+
+.complaint_box .row5 .reject:hover {
+    color: rgb(40, 169, 192);
+}
+
+.complaint_box .row5 .approve:hover {
+    background-color: rgb(40, 169, 192);
+}

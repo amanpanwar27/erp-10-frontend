@@ -1,0 +1,39 @@
+nav{
+    height: 60px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.nav-item,.dropdown-toggle{
+font-size: 17px;
+font-weight: 400;
+}
+
+.dropdown-item{
+    font-size: 18px;
+}
+
+nav .home, nav .leave{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+} 
+
+nav ul{
+    margin-left: 40px;
+}
+
+nav .logout{
+border: 1px solid transparent ;
+border-radius: 10px;
+background-color: #e3f2fd;
+color: darkgrey;
+ /* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */
+ font-size: 18px;
+ font-weight: 500;
+ padding: 5px;
+ cursor: pointer;
+}

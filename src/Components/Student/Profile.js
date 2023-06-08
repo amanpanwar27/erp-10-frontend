@@ -19,6 +19,7 @@ function Profile ({isstudent}) {
   const location = useLocation();
   const userdetails = JSON.parse(window.localStorage.getItem("userdetails"));
   const [user,setUser] = useState(userdetails);
+
   const getstats = async(reg_id)=>{
     await fetch(`http://localhost:8080/complaint/get_stats_student?reg_id=${reg_id}`,{
       headers : {

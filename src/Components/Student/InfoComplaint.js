@@ -31,6 +31,7 @@ const InfoComplaint = ({
             
             {modalData.status == "rejected" && <p>Rejection Note</p>}
             {modalData.status == "pending" && (<p>Forward Note</p>)}
+            {modalData.status == "approved" && (<p>Punishment</p>)}
             
           </div>
           <div className='inforight col-md-3'>
@@ -47,6 +48,7 @@ const InfoComplaint = ({
             <p>{modalData.description}</p>
             {modalData.status == "rejected" && <p>{modalData.rejection_note}</p>}
             {modalData.status == "pending" && <p>{modalData.forward_note}</p>}
+            {modalData.status == "approved" && <p>{modalData.punishment}</p>}
             
           </div>
           
